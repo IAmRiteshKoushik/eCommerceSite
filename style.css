@@ -35,6 +35,10 @@ Fonts:
     --trasn-color: color .3s;
 }
 
+::before,::after{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
@@ -51,3 +55,89 @@ a{
     /* What is webkit-tap? */
     -webkit-tap-highlight-color: transparent;
 }
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: var(--percent50);
+    vertical-align: middle;
+}
+
+strong{
+    font-weight: var(--fw8);
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input::placeholder{
+     font: inherit;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: calc(1.3em + 1vw);
+    font-weight: var(--fw8);
+    line-height: 1;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 2.5em;
+    font-weight: var(--fw7);
+}
+
+h4{
+    font-size: 1em;
+    font-weight: var(--fw6);
+}
+
+/*====================
+  REUSABLE SELECTIONS
+  ====================*/
+
+  .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.938em;
+  }
+
+  .column{
+
+  }
+
+  .column .row{
+
+  }
+
+  .flexwrap{
+
+  }
+
+  .flexcenter{
+
+  }
+
+  .flexitem{
+
+  }
+
+  .flexitem{
+
+  }
+
+  .flexcol{
+
+  }
+
+  
